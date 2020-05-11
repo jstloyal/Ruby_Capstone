@@ -31,25 +31,37 @@ class Error_check
 
   def check_trailing_space(file_data)
     file_data.each do |line|
-      
-  
-      @error_messages << {line_num: , message: 'Trailing whitespace detected' }
+      if line[-1] = ''
+        @error_messages << {line_num: , message: 'Trailing whitespace detected' }
+      else
+        false
+      end
     end
   end
 
   def check_double_space(file_data)
     file_data.each do |line|
-      
+      line.map do |spaces|
+        @error_messages << {line_num: , message: 'Operator = should be surrounded by a single space.' } if spaces = '  '
+      else
+        false
+      end
   
-      @error_messages << {line_num: , message: 'Operator = should be surrounded by a single space.' }
+      # @error_messages << {line_num: , message: 'Operator = should be surrounded by a single space.' }
     end
   end
 
   def check_double_quotes(file_data)
     file_data.each do |line|
-      
+      line.map do |x|
+        if x = '/"'
+          @error_messages << {line_num: , message: 'Prefer single-quoted strings when you don\'t need string interpolation or special symbols' }
+        else
+          false
+        end
+      end
   
-      @error_messages << {line_num: , message: 'Prefer single-quoted strings when you don\'t need string interpolation or special symbols' }
+      # @error_messages << {line_num: , message: 'Prefer single-quoted strings when you don\'t need string interpolation or special symbols' }
     end
   end
   
