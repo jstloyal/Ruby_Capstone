@@ -8,7 +8,6 @@ end
 
 puts 'Please type filename to check:'
 file_name = gets.chomp
-# file_name = 'Test/my_test.rb'
 check = ErrorCheck.new(file_name)
 puts "Checking #{file_name} for errors."
 show_errors(check) if check.valid
