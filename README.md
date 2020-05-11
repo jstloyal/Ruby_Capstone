@@ -38,7 +38,7 @@ In this project, I build a linter for Ruby that can detect some errors within yo
     <a href="https://github.com/jstloyal/Ruby_Capstone"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://repl.it/@ioanniskousis/Ruby_Capstone">View Demo</a>
+    <a href="https://repl.it/@jstloyalty/RubyCapstone">View Demo</a>
     <a href="https://github.com/jstloyal/Ruby_Capstone/issues">Report Bug</a>
     <a href="https://github.com/jstloyal/Ruby_Capstone/issues">Request Feature</a>
   </p>
@@ -103,7 +103,7 @@ https://github.com/jstloyal/Ruby_Capstone.git
 - last_name = args[1] - Trailing space error
 
 <p align="center">
-    <img src="images/wrong_ruby1.png" alt="Microverse Logo" width="800" height="450">
+    <img src="images/wrong_ruby1.png" alt="Microverse Logo" width="750" height="450">
 </p>
 
 ## Good Code
@@ -125,11 +125,11 @@ This project was built using these technologies.
 
 ## Live version
 
-You can see it working [![Run on Repl.it](https://repl.it/badge/github/jstloyal/Ruby_Capstone)]()
+You can see it working [![Run on Repl.it](https://repl.it/badge/github/jstloyal/Ruby_Capstone)](https://repl.it/@jstloyalty/RubyCapstone)
 
 <!-- CONTACT -->
 
-## Contributors
+## Contributor
 
 :bust_in_silhouette:
 **Author_1**
