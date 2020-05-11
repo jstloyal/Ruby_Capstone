@@ -103,13 +103,13 @@ https://github.com/jstloyal/Ruby_Capstone.git
 - last_name = args[1] - Trailing space error
 
 <p align="center">
-    <img src="images/wrong_ruby1.png" alt="Microverse Logo" width="600" height="450">
+    <img src="images/wrong_ruby1.png" alt="Microverse Logo" width="800" height="450">
 </p>
 
 ## Good Code
 
 <p align="center">
-    <img src="images/correct_ruby.png" alt="Microverse Logo" width="600" height="450">
+    <img src="images/correct_ruby.png" alt="Microverse Logo" width="800" height="450">
 </p>
 
 ### Built With
