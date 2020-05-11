@@ -3,13 +3,13 @@ require_relative '../lib/error_check.rb'
 
 def show_errors(check)
   system('cls') || system('clear')
-  check.error_messages.each { |error| puts "Line #{error[:line_num]}: #{error[:message]}"  }
+  check.error_messages.each { |error| puts "Line #{error[:line_num]}: #{error[:message]}" }
 end
-  
-puts "Please type filename to check: "
+
+puts 'Please type filename to check:'
 file_name = gets.chomp
 # file_name = 'Test/my_test.rb'
-check = Error_check.new(file_name)
+check = ErrorCheck.new(file_name)
 puts "Checking #{file_name} for errors."
 show_errors(check) if check.valid
-puts 'Could not open file #{file_name}' unless check.valid
+puts "Could not open file #{file_name}" unless check.valid
