@@ -26,7 +26,7 @@ In this project, I build a linter for Ruby that can detect some errors within yo
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/ioanniskousis/tic-tac-toe">
+  <a href="https://github.com/jstloyal/Ruby_Capstone">
     <img src="images/microverse.png" alt="Microverse Logo" width="80" height="80">
   </a>
   
@@ -35,17 +35,13 @@ In this project, I build a linter for Ruby that can detect some errors within yo
   <p align="center">
     This project is part of the Microverse curriculum in Ruby module!
     <br />
-    <a href="https://github.com/ioanniskousis/tic-tac-toe"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/jstloyal/Ruby_Capstone"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://repl.it/@ioanniskousis/tic-tac-toe">View Demo</a>
-    <a href="https://github.com/ioanniskousis/tic-tac-toe/issues">Report Bug</a>
-    <a href="https://github.com/ioanniskousis/tic-tac-toe/issues">Request Feature</a>
+    <a href="https://github.com/jstloyal/Ruby_Capstone/issues">Report Bug</a>
+    <a href="https://github.com/jstloyal/Ruby_Capstone/issues">Request Feature</a>
   </p>
-</p>
-
-<p align="center">
-  <img src="images/tic-tac-toe.png" alt="Tic-Tac-Toe_ Game" width="400" height="400">
 </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -107,13 +103,13 @@ https://github.com/jstloyal/Ruby_Capstone.git
 - last_name = args[1] - Trailing space error
 
 <p align="center">
-    <img src="images/wrong_ruby1.png" alt="Microverse Logo" width="150" height="90">
+    <img src="images/wrong_ruby1.png" alt="Microverse Logo" width="400" height="250">
 </p>
 
 ## Good Code
 
 <p align="center">
-    <img src="images/correct_ruby.png" alt="Microverse Logo" width="150" height="90">
+    <img src="images/correct_ruby.png" alt="Microverse Logo" width="400" height="250">
 </p>
 
 ### Built With
