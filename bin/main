@@ -1,34 +1,15 @@
 #!/usr/bin/env ruby
 require_relative '../lib/error_check.rb'
 
-#--1--read a code file
-
-#--2--Scan through the code 
-
-#--3--****ERRORS TO CHECK ****
-
-#--4--return error message and line number of the error
-
-#--5-- store 4 above in a hash and output it to the terminal
-
-#--6-- autofix indentation_error, space_error and new_line_error
-
-#--7-- return message when no error is found
-
 def show_errors(check)
   system('cls') || system('clear')
   check.error_messages.each { |error| puts "Line #{error[:line_num]}: #{error[:message]}"  }
 end
-
-loop do
   
-  puts "Please type filename to check: "
-  file_name = gets.chomp
-  break if file_name == 'x'
-  check = Error_check.new(file_name)
-  puts "Checking #{file_name} for errors."
-  show_errors(check) if check.valid
-  puts 'Could not open file #{file_name}' unless check.valid
-
-end
-
+puts "Please type filename to check: "
+file_name = gets.chomp
+# file_name = 'Test/my_test.rb'
+check = Error_check.new(file_name)
+puts "Checking #{file_name} for errors."
+show_errors(check) if check.valid
+puts 'Could not open file #{file_name}' unless check.valid
