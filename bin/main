@@ -13,3 +13,4 @@ check = ErrorCheck.new(file_name)
 puts "Checking #{file_name} for errors."
 show_errors(check) if check.valid
 puts "Could not open file #{file_name}" unless check.valid
+puts "#{check.error_messages.size} offenses detected"
