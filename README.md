@@ -87,7 +87,7 @@ The project consists of four code files
 
 ## Automated Test
 
-- The Rspec test cases is saved in example_spec.rb file in the spec folder.
+- The Rspec test cases reside in example_spec.rb file in the spec folder.
 - To run the test cases, type (rspec spec/example_spec.rb) in your terminal.
 
 ## What my ruby linter checks
