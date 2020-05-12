@@ -230,9 +230,6 @@ https://github.com/jstloyal/Ruby_Capstone.git
 
 ## Bad Code
 
-- first_name = args[0] - Operator = should be surrounded by a single space
-- last_name = args[1] - Trailing space error
-
 <p align="center">
     <img src="images/wrong_ruby1.png" alt="Microverse Logo" width="750" height="450">
 </p>
@@ -259,7 +256,7 @@ This project was built using these technologies.
 
 You can see it working [![Run on Repl.it](https://repl.it/badge/github/jstloyal/Ruby_Capstone)](https://repl.it/@jstloyalty/RubyCapstone)
 
-You can watch how to use the linter here: [![Run on drive.google.com](https://drive.google.com/file/d/1SOqD4WkMqOlB1aE7JmFECHCU4xud8i_Q/view?usp=sharing)]
+You can watch how to use the linter here: [![drive.google.com](https://drive.google.com/file/d/1SOqD4WkMqOlB1aE7JmFECHCU4xud8i_Q/view?usp=sharing)]
 
 <!-- CONTACT -->
 
