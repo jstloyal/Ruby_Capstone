@@ -70,8 +70,6 @@ The project consists of four code files
 * error_check.rb
   This class checks for mistakes within the code. Different methods are used to do this checks.
 
-- The 'Test' folder
-
 * test.rb
   This short program is used to test our small linting program and see how it responds when a file is passed for error checks.
 
@@ -86,6 +84,134 @@ The project consists of four code files
 - excecute the main.rb file inside bin/main.
 - Specify the path to the file when prompted.
 - The ruby file will run only if the path given is correct!
+
+## What the ruby linter checks
+
+## Check trailing space
+
+- It detects trailing space(s) at the end of each line
+
+### good
+
+```
+  def show_info
+    puts 'checks a trailing space'|
+  end
+```
+
+### bad
+
+```
+  def show_info |
+    puts 'checks a trailing space' |
+  end
+```
+
+## Check space(s) surrounding the (=) operator
+
+- Operator = should be surrounded by a single space
+
+### good
+
+```
+  def show_info(\*args)
+    first_name = 'John'
+    last_name = 'Doe'
+  end
+```
+
+### bad
+
+```
+  def show_info(\*args)
+    first_name  = 'John'
+    last_name =  'Doe'
+  end
+```
+
+## Check for double quotes (") around strings
+
+- Prefer single-quoted strings when you don't have string interpolation or special symbols
+
+### good
+
+```
+  def show_info(\*args)
+    first_name = 'John'
+    puts "My name is #{first_name}!"
+  end
+```
+
+### bad
+
+```
+  def show_info(\*args)
+    first_name = "John"
+    puts "My name is John!"
+  end
+```
+
+## Check indentation
+
+- It detects wrong indentation space
+
+### good
+
+```
+  class TheTest
+    def initialize(*args)
+      @first_name = args[0]
+      @last_name = args[1]
+    end
+  end
+```
+
+### good
+
+```
+    class TheTest
+    def initialize(*args)
+      @first_name = args[0]
+      @last_name = args[1]
+    end
+  end
+```
+
+## Check for empty line
+
+- Check for empty line withing your code and make sure the necessary empty line is not more than 1
+
+### good
+
+```
+  class TheTest
+    def initialize(*args)
+      @first_name = args[0]
+      @last_name = args[1]
+    end
+
+    def show_info
+      puts @first_name + ' ' + @last_name
+    end
+  end
+```
+
+### bad
+
+```
+  class TheTest
+    def initialize(*args)
+      @first_name = args[0]
+      @last_name = args[1]
+    end
+
+
+
+    def show_info
+      puts @first_name + ' ' + @last_name
+    end
+  end
+```
 
 ## Development
 
