@@ -15,7 +15,7 @@ Lint/StructNewOverride:
   Enabled: true
 
 Layout/LineLength:
-  Max: 120
+  Max: 150
 Metrics/MethodLength:
   Max: 20
 Metrics/AbcSize:

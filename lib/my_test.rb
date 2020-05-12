@@ -4,20 +4,19 @@ class Student
   def initialize(*args)
     @first_name = args[0]
     @last_name = args[1]
-    @address =  args[2]
+    @address = args[2]
     @y_o_b = args[3]
-    @school  = args[4] 
+    @school = args[4]
     @school.add_student
     @count += 1
   end
 
-
   def show_info
-    puts @first_name + " " + @last_name + ' ' + @address + ' ' + @y_o_b.to_s + ' ' + @school.name
+    puts @first_name + ' ' + @last_name + ' ' + @address + ' ' + @y_o_b.to_s + ' ' + @school.name
   end
 
   def self.show_class_info
-    puts "There are #{@count} students" 
+    puts "There are #{@count} students"
   end
 
   def self.count_of_students
@@ -25,7 +24,7 @@ class Student
   end
 end
 
- class School
+class School
   attr_accessor :count_of_students, :name, :city
 
   def initialize(*args)
