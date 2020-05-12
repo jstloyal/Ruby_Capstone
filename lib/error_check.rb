@@ -53,9 +53,7 @@ class ErrorCheck
     file_data.each_with_index do |line, i|
       temp_string = line.strip
       key_words.each do |value|
-        if temp_string[0...value.size] == value && line[0] == ' '
-          @error_messages << { line_num: i + 1, message: 'Wrong indentation space' }
-        end
+        @error_messages << { line_num: i + 1, message: 'Wrong indentation space' } if temp_string[0...value.size] == value && line[0] == ' '
       end
     end
   end
