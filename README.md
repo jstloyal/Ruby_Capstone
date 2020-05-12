@@ -82,7 +82,7 @@ The project consists of four code files
 
 - clone the project and add the file or files to be linted in the project directory.
 - excecute the main.rb file inside bin/main.
-- Specify the path to the file when prompted.
+- Specify the path to the file when prompted (lib/my_test.rb for example).
 - The ruby file will run only if the path given is correct!
 
 ## What the ruby linter checks
@@ -254,7 +254,7 @@ This project was built using these technologies.
 
 You can see it working [![Run on Repl.it](https://repl.it/badge/github/jstloyal/Ruby_Capstone)](https://repl.it/@jstloyalty/RubyCapstone)
 
-You can watch how to use the linter here: [!(https://drive.google.com/file/d/1SOqD4WkMqOlB1aE7JmFECHCU4xud8i_Q/view?usp=sharing)]
+You can watch how to use the linter here: [![Run on drive.google.com](https://drive.google.com/file/d/1SOqD4WkMqOlB1aE7JmFECHCU4xud8i_Q/view?usp=sharing)]
 
 <!-- CONTACT -->
 
