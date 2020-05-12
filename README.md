@@ -128,6 +128,10 @@ This project was built using these technologies.
 
 You can see it working [![Run on Repl.it](https://repl.it/badge/github/jstloyal/Ruby_Capstone)](https://repl.it/@jstloyalty/RubyCapstone)
 
+## Project presentation
+
+You can watch how to use the linter here: (https://drive.google.com/file/d/1SOqD4WkMqOlB1aE7JmFECHCU4xud8i_Q/view?usp=sharing)
+
 <!-- CONTACT -->
 
 ## Contributor
