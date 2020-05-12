@@ -119,6 +119,7 @@ This project was built using these technologies.
 - Ruby
 - Rubocop
 - VsCode
+- RSpec
 - Git-Flow
 
 <!-- LIVE VERSION -->
