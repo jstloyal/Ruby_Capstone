@@ -85,7 +85,12 @@ The project consists of four code files
 - Specify the path to the file when prompted (lib/my_test.rb for example).
 - The ruby file will run only if the path given is correct!
 
-## What the ruby linter checks
+## Automated Test
+
+- The Rspec test cases is saved in example_spec.rb file in the spec folder.
+- To run the test cases, type (rspec spec/example_spec.rb) in your terminal.
+
+## What my ruby linter checks
 
 ### Check trailing space
 
