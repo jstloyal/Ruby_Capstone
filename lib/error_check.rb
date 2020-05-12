@@ -22,6 +22,8 @@ class ErrorCheck
     check_double_quotes(file_data)
   end
 
+  private
+
   def check_trailing_space(file_data)
     file_data.each_with_index do |line, i|
       @error_messages << { line_num: i + 1, message: 'Trailing whitespace detected' } if line[-2] == ' '
@@ -65,8 +67,6 @@ class ErrorCheck
       @error_messages << { line_num: i + 1, message: 'Extra blank line detected' } if file_data[i + 1].strip.size.zero?
     end
   end
-
-  private
 
   def quotes_contain_variable(line)
     quote_position = line.index('"')
