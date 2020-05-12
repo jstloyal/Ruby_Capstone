@@ -87,11 +87,11 @@ The project consists of four code files
 
 ## What the ruby linter checks
 
-## Check trailing space
+### Check trailing space
 
 - It detects trailing space(s) at the end of each line
 
-### good
+#### good
 
 ```
   def show_info
@@ -99,7 +99,7 @@ The project consists of four code files
   end
 ```
 
-### bad
+#### bad
 
 ```
   def show_info |
@@ -107,11 +107,11 @@ The project consists of four code files
   end
 ```
 
-## Check space(s) surrounding the (=) operator
+### Check space(s) surrounding the (=) operator
 
 - Operator = should be surrounded by a single space
 
-### good
+#### good
 
 ```
   def show_info(\*args)
@@ -120,7 +120,7 @@ The project consists of four code files
   end
 ```
 
-### bad
+#### bad
 
 ```
   def show_info(\*args)
@@ -129,11 +129,11 @@ The project consists of four code files
   end
 ```
 
-## Check for double quotes (") around strings
+### Check for double quotes (") around strings
 
 - Prefer single-quoted strings when you don't have string interpolation or special symbols
 
-### good
+#### good
 
 ```
   def show_info(\*args)
@@ -142,7 +142,7 @@ The project consists of four code files
   end
 ```
 
-### bad
+#### bad
 
 ```
   def show_info(\*args)
@@ -151,11 +151,11 @@ The project consists of four code files
   end
 ```
 
-## Check indentation
+### Check indentation
 
 - It detects wrong indentation space
 
-### good
+#### good
 
 ```
   class TheTest
@@ -166,7 +166,7 @@ The project consists of four code files
   end
 ```
 
-### good
+#### bad
 
 ```
     class TheTest
@@ -177,11 +177,11 @@ The project consists of four code files
   end
 ```
 
-## Check for empty line
+### Check for empty line
 
 - Check for empty line withing your code and make sure the necessary empty line is not more than 1
 
-### good
+#### good
 
 ```
   class TheTest
@@ -196,7 +196,7 @@ The project consists of four code files
   end
 ```
 
-### bad
+#### bad
 
 ```
   class TheTest
@@ -254,16 +254,14 @@ This project was built using these technologies.
 
 You can see it working [![Run on Repl.it](https://repl.it/badge/github/jstloyal/Ruby_Capstone)](https://repl.it/@jstloyalty/RubyCapstone)
 
-## Project presentation
-
-You can watch how to use the linter here: (https://drive.google.com/file/d/1SOqD4WkMqOlB1aE7JmFECHCU4xud8i_Q/view?usp=sharing)
+You can watch how to use the linter here: [!(https://drive.google.com/file/d/1SOqD4WkMqOlB1aE7JmFECHCU4xud8i_Q/view?usp=sharing)]
 
 <!-- CONTACT -->
 
 ## Contributor
 
 :bust_in_silhouette:
-**Author_1**
+**Author**
 
 ​## Adetayo Sunkanmi
 
