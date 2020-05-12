@@ -25,7 +25,7 @@ class Student
   end
 end
 
-  class School
+ class School
   attr_accessor :count_of_students, :name, :city
 
   def initialize(*args)
