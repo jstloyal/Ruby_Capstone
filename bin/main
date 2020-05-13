@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+require_relative '../lib/error_check.rb'
+
+def show_errors(check)
+  system('cls') || system('clear')
+  check.error_messages.each { |error| puts "Line #{error[:line_num]}: #{error[:message]}" }
+end
+
+puts 'Please type filename to check:'
+file_name = gets.chomp
+check = ErrorCheck.new(file_name)
+puts "Checking #{file_name} for errors."
+show_errors(check) if check.valid
+puts "Could not open file #{file_name}" unless check.valid
+puts "#{check.error_messages.size} offenses detected"
